@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Projelerim",
+        "net": "https://www.nettasec.com/",
+        "resparoto":"https://resparoto.com/",
+        "aerialvrtlpagesdev": "https://aerialvrtl.pages.dev/",
+        "sections": [
+            {
+                "type": "resparoto",
+                "img": "/images/projelerim/resparoto.png"
+            },
+            {
+                "type": "nettasec",
+                "img": "/images/projelerim/nettasec.png"
+            },
+            
+            {
+                "type": "virtual",
+                "img": "/images/projelerim/virtual.png"
+            }
+        ]
+    }
+]

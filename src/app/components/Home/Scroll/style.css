@@ -1,0 +1,60 @@
+
+
+.rainbow-text-loop {
+    
+    display: inline-block;
+    margin-top: 1rem;
+    text-shadow: 2px 2px 4px #000000;
+    -webkit-animation: rainbow 5s infinite;
+}
+
+@-webkit-keyframes rainbow {
+   
+
+    17% {
+        color: purple;
+    }
+
+    16% {
+        color: red;
+    }
+
+    14% {
+        color: CadetBlue;
+    }
+
+    15% {
+        color: yellow;
+    }
+
+    
+
+    13% {
+        color: green;
+    }
+
+    12% {
+        color: cyan;
+    }
+
+    11% {
+        color: DeepPink;
+    }
+
+    10% {
+        color: DodgerBlue;
+    }
+
+    
+}
+
+
+.rainbow-text-shadow {
+    display: inline-block;
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #ef3550;
+    letter-spacing: 8px;
+    text-shadow: 1px 0 #f48fb1, 2px 0 #7e57c2, 3px 0 #2196f3, 4px 0 #26c6da, 5px 0 #43a047, 6px 0 #eeff41, 7px 0 #f9a825, 8px 0 #ff5722, -1px 0 #f48fb1, -2px 0 #7e57c2, -3px 0 #2196f3, -4px 0 #26c6da, -5px 0 #43a047, -6px 0 #eeff41, -7px 0 #f9a825, -8px 0 #ff5722;
+}

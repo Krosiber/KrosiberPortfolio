@@ -1,0 +1,45 @@
+{
+    "about": {
+      "about": "Hakkımda",
+      "who": "Merhaba! Kodlama, Yazılım geliştirme konularında yetenekliyim.",
+      "who2": "İstanbul'da yaşıyorum ve yerel topluluklara",
+      "who3": "katkıda bulunmayı hedefliyorum.",
+      "who4": "Buradayım, bağlantı kurmaya geldim!",
+      "img": "/images/kros.png"
+    },
+    "navbar": {
+      "Anasayfa": "Anasayfa",
+      "Hakkımda": "Hakkımda",
+      "Projelerim": "Projelerim",
+      "logo": "/images/logo.png"
+    },
+    "projects": {
+      "title": "Projelerim",
+      "net": "nettasec.com",
+      "resparoto": "resparoto.com",
+      "aerialvrtlpagesdev": "aerialvrtl.pages.dev",
+      "sections": [
+        {
+          "type": "resparoto",
+          "img": "/images/projelerim/resparoto.png"
+        },
+        {
+          "type": "nettasec",
+          "img": "/images/projelerim/nettasec.png"
+        },
+        {
+          "type": "virtual",
+          "img": "/images/projelerim/virtual.png"
+        }
+        
+      ]
+    },
+    "footer": {
+      "title": "Krosiber",
+      "WebDeveloper": "Web Developer",
+      "SosyalMedya": "Sosyal Medya",
+      "Email": "Email",
+      "gmail":"halileymensahin456@gmail.com"
+    }
+  }
+  
