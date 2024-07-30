@@ -6,7 +6,7 @@ import "./style.css"
 
 const HeroScrollDemo = () => {
     return (
-        <Link href="https://github.com/Krosiber" id='Anasayfa'>
+        <Link href="https://github.com/Krosiber">
             <div className="flex flex-col overflow-hidden">
                 <ContainerScroll
                     titleComponent={

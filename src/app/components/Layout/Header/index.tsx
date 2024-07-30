@@ -23,14 +23,14 @@ const Header: React.FC<NavbarProps> = ({ Anasayfa, Hakkımda, Projelerim, logo }
       <div className=' bg-opacity-70 backdrop-filter backdrop-blur-lg h-auto w-full fixed top-0 border-b border-[#383838] z-20 ' >
         <nav className='flex items-center justify-between px-4'>
           <div className='flex items-center'>
-            <ScrollLink to="Anasayfa"  smooth={true} duration={500}>
+            <ScrollLink to="/"  smooth={true} duration={500}>
               <button><Image src={logo} width={100} height={100} alt='logo' /></button>
             </ScrollLink>
           </div>
           {/* Desktop Menu */}
           <div className='hidden md:flex flex-1 justify-center text-gray-200'>
             <ul className='flex text-xl'>
-              <ScrollLink to="Anasayfa"  smooth={true} duration={500}>
+              <ScrollLink to="/"  smooth={true} duration={500}>
                 <button><li className='pr-4'>{Anasayfa}</li></button>
               </ScrollLink>
               <ScrollLink to="hakkimda" smooth={true} duration={500}>
@@ -56,7 +56,7 @@ const Header: React.FC<NavbarProps> = ({ Anasayfa, Hakkımda, Projelerim, logo }
         {mobileMenuOpen && (
           <div className='md:hidden text-gray-200'>
             <ul className='flex flex-col items-center text-center px-4 py-2'>
-              <ScrollLink to="Anasayfa" smooth={true} duration={500} onClick={() => setMobileMenuOpen(false)}>
+              <ScrollLink to="/" smooth={true} duration={500} onClick={() => setMobileMenuOpen(false)}>
                 <button><li className='pb-2'>{Anasayfa}</li></button>
               </ScrollLink>
               <ScrollLink to="hakkimda" smooth={true} duration={500} onClick={() => setMobileMenuOpen(false)}>
