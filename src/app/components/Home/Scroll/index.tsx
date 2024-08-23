@@ -12,8 +12,8 @@ const HeroScrollDemo = () => {
                     titleComponent={
                         <>
                             <h1 className="text-6xl mb-8 -tracking-tighter font-semibold text-black dark:text-white rainbow-text-loop">
-                            Github
-                              
+                                Github
+
                             </h1>
                         </>
                     }
@@ -26,8 +26,8 @@ const HeroScrollDemo = () => {
                         className="mx-auto rounded-2xl object-cover h-full object-left-top"
                         draggable={false}
                     />
-                   
-                    
+
+
                 </ContainerScroll>
             </div></Link>
     );

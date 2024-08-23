@@ -1,7 +1,5 @@
-
-
 .rainbow-text-loop {
-    
+
     display: inline-block;
     margin-top: 1rem;
     text-shadow: 2px 2px 4px #000000;
@@ -9,7 +7,7 @@
 }
 
 @-webkit-keyframes rainbow {
-   
+
 
     17% {
         color: purple;
@@ -27,7 +25,7 @@
         color: yellow;
     }
 
-    
+
 
     13% {
         color: green;
@@ -45,7 +43,7 @@
         color: DodgerBlue;
     }
 
-    
+
 }
 
 
