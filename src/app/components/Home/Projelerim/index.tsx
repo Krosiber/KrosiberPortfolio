@@ -35,7 +35,7 @@ const Projelerim: React.FC<ProjectsData> = ({ title, net, resparoto, aerialvrtlp
                 ? `https://${resparoto}`
                 : section.type === 'nettasec'
                   ? `https://${net}`
-                  : `https://${aerialvrtlpagesdev}`;
+                  : `https://seraphairstudio.com/`;
 
             return (
               <Link href={linkHref} target='_blank' key={index}>
@@ -50,7 +50,7 @@ const Projelerim: React.FC<ProjectsData> = ({ title, net, resparoto, aerialvrtlp
                           ? resparoto
                           : section.type === 'nettasec'
                             ? net
-                            : aerialvrtlpagesdev}
+                            : `seraphairstudio.com`}
                       </h1>
                     </CardItem>
                     <CardItem
